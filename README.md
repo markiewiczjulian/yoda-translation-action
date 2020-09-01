@@ -2,7 +2,7 @@
 This is a Github action which translates the issue comments and pull request comments from english to yodish (Yoda language).
 
 ## Prerequisites
-You have to create an secret, inside your repository where you intend to use the action, with Github Access Token inside ([here](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token) is Github doc about how to do it step by step). Also if you want to make more than 60 API calls daily (this is 5 calls per hour), you have to create a secret with token from [funtranslations](https://funtranslations.com/api/yoda) website.
+You have to create an secret ([here](https://docs.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets) is good instruction how to do it step by step), inside your repository where you intend to use the action, with Github Access Token inside ([here](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token) is Github doc about how to do it step by step). Also if you want to make more than 60 API calls daily (this is 5 calls per hour), you have to create a secret with token from [funtranslations](https://funtranslations.com/api/yoda) website.
 
 ## How to use it 
 After you have added the Github Access Token as a secret you can start adding the configuration for your action within destined project. Here you can follow [this](https://docs.github.com/en/actions/language-and-framework-guides/using-nodejs-with-github-actions) doc from Github. But to surmise what needs to be done:
