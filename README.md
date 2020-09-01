@@ -47,11 +47,7 @@ After you or your colleague submits the comment inside an issue or pull request 
 
 ![Screenshot from 2020-09-01 09-36-46](https://user-images.githubusercontent.com/39520658/91821191-b9558480-ec36-11ea-9575-9493b8f9fd0e.png)
 
-*example using action on pull request comment*
-
 ![Screenshot from 2020-09-01 09-32-10](https://user-images.githubusercontent.com/39520658/91821259-bd81a200-ec36-11ea-82b0-3ea02d6454a4.png)
-
-*example using action on issue comment*
 
 ### MIT License
 
