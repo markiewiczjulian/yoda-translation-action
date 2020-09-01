@@ -40,7 +40,7 @@ jobs:
 ```
 Remember that translationApiToken is optional and if you don't have it (you want to use free tier on funtranslations), you simply don't include it in the yml file.
 
-You can also check the yoda-translation-action-test repository ([here](https://github.com/markiewiczjulian/yoda-translation-action-test) to see simple node.js app where I have used this action.
+You can also check the yoda-translation-action-test repository ([here](https://github.com/markiewiczjulian/yoda-translation-action-test)) to see simple node.js app where I have used this action.
 
 ## How this works
 After you or your colleague submits the comment inside an issue or pull request the action gets triggered. Action will replace the message to translation from funtranslations and also add the info at the text beginning (``[translated from english, to yodish]:``).
