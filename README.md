@@ -10,7 +10,7 @@ After you have added the Github Access Token as a secret you can start adding th
 - then within this directory you have to add folder called workflows,
 - inside workflows folder you should add main.yml file. Inside this file you should put code which is looking similar to this one (your Github user name will differ so you have to change the part with uses markiewiczjulian/yoda-translation-action@master and also you could have named your secrets other than me, so sections with properties: githubAccessToken, translationApiToken, would be your point of interest),
 ```yaml
-name: Chuck Joke
+name: Yoda translation
 
 on:
   pull_request_review_comment:
@@ -26,8 +26,8 @@ jobs:
       - uses: actions/checkout@v2
         name: Use Node.js 12.X
       - run: npm install
-      - uses: markiewiczjulian/yoda-translation-master@master
-        name: use chuck_norris_joke_action
+      - uses: markiewiczjulian/yoda-translation-action@master
+        name: use yoda-translation-action
         with:
           githubAccessToken: ${{secrets.GIT_ACCESS_TOKEN}}
           translationApiToken: ${{secrets.TRANSLATION_API_TOKEN}}

@@ -1,0 +1,12 @@
+name: "Yoda translation"
+description: "A Github Action, to change text comments from regular ones to yoda-like comments."
+inputs:
+  githubAccessToken:
+    description: "github access token"
+    required: true
+  translationApiToken:
+    description: "funtranslation API token"
+    required: false
+runs:
+  using: "node12"
+  main: "index.js"
