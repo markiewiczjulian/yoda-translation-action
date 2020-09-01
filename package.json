@@ -17,10 +17,8 @@
   },
   "homepage": "https://github.com/markiewiczjulian/yoda-translation-action#readme",
   "dependencies": {
-    "@actions/core": "^1.2.4",
+    "@actions/core": "^1.2.5",
     "@actions/github": "^4.0.0",
-    "axios": "^0.19.2",
-    "lost-in-translation": "^1.0.1",
-    "nodemailer": "^6.4.11"
+    "axios": "^0.19.2"
   }
 }
